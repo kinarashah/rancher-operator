@@ -598,6 +598,12 @@ spec:
                 dns:
                   nullable: true
                   properties:
+                    keySelector:
+                      additionalProperties:
+                        nullable: true
+                        type: string
+                      nullable: true
+                      type: object
                     linearAutoscalerParams:
                       nullable: true
                       properties:
